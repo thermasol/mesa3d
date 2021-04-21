@@ -33,7 +33,7 @@ cc_library_headers {
     ],
     host_supported: true,
     vendor: true,
-    visibility: [":__subpackages__"],
+//    visibility: [":__subpackages__"],
 }
 
 // This needs to be kept in sync with Android.common.mk

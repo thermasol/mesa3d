@@ -29,7 +29,7 @@ build = ["Android.sources.bp"]
 cc_library_static {
     name: "libmesa_glsl_utils",
     defaults: ["mesa_common_defaults"],
-    host_supported: true,
+    host_supported: false,
 
     srcs: [
         "main/extensions_table.c",
@@ -45,6 +45,8 @@ cc_library_static {
         },
     },
 }
+
+/*
 
 cc_binary_host {
     name: "mesa_gen_matypes",
@@ -80,3 +82,5 @@ cc_library_static {
         },
     },
 }
+
+*/
